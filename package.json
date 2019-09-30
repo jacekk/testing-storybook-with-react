@@ -11,8 +11,8 @@
     "build-prod": "webpack -p --mode production",
     "build-storybook": "build-storybook",
     "clean": "rm -r ./dist ./storybook-static",
-    "deploy-storybook": "storybook-to-ghpages --out=./storybook-static --branch=ghpages-storybook",
-    "deploy": "gh-pages -d dist --branch=ghpages-app",
+    "deploy-storybook": "storybook-to-ghpages --out=./storybook-static",
+    "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --hot --mode development",
     "storybook": "start-storybook -p 6006"
   },
