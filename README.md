@@ -1,4 +1,4 @@
-# Testing storybook
+# Testing storybook (with React)
 
 ## Building and running on localhost
 
