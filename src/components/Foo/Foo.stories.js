@@ -1,9 +1,23 @@
 import React from "react";
+import { storiesOf } from "@storybook/react";
+import { withKnobs, text, number } from "@storybook/addon-knobs";
 
 import { Foo } from "./Foo";
 
-export default {
-  title: "Foo"
-};
+const stories = storiesOf("Foo", module);
 
-export const noProps = () => <Foo />;
+stories.addDecorator(withKnobs);
+
+stories.add("no props", () => <Foo />);
+
+stories.add("with height", () => {
+  const height = number("height", 30);
+
+  return <Foo height={height} />;
+});
+
+stories.add("with string height", () => {
+  const height = text("height", "40");
+
+  return <Foo height={height} />;
+});

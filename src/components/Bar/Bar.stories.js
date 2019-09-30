@@ -8,4 +8,4 @@ export default {
 
 export const noProps = () => <Bar />;
 
-export const someProps = () => <Bar uno={11} dos={22} />;
+export const someProps = () => <Bar uno={11} dos="22" isPrimary />;
