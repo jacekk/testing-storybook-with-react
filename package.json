@@ -10,7 +10,7 @@
     "build-dev": "webpack -d --mode development",
     "build-prod": "webpack -p --mode production",
     "build-storybook": "build-storybook",
-    "clean": "rm -r ./dist ./storybook-static",
+    "clean": "rm -rf ./dist ./storybook-static",
     "deploy-storybook": "storybook-to-ghpages --out=./storybook-static",
     "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --hot --mode development",
