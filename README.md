@@ -4,37 +4,42 @@
 
 First install dependencies:
 
-```sh
-npm install
-```
+`yarn install`
 
 To run in hot module reloading mode:
 
-```sh
-npm start
-```
+`yarn start`
 
 To create a production build:
 
-```sh
-npm run build-prod
-```
+`yarn build-prod`
 
 To create a development build:
 
-```sh
-npm run build-dev
-```
+`yarn build-dev`
 
 ## Running
 
 Open the file `dist/index.html` in your browser
 
-## Credits
+## Storybook
 
-Made with [createapp.dev](https://createapp.dev/)
+- `yarn install`
+- `yarn storybook`
+
+To deploy under https://jacekk.github.io/testing-storybook-with-react , run:
+
+- `yarn deploy-storybook`
+
+**Note:**
+
+`yarn deploy` with release the react app, which will override the Storybook artifacts.
 
 ## Learned
 
 - https://github.com/storybookjs/storybook-deployer
 - GitHub Pages  allowes to pick **ONLY one branch** to be served.
+
+## Credits
+
+Made with [createapp.dev](https://createapp.dev/)
