@@ -38,7 +38,7 @@ To deploy under https://jacekk.github.io/testing-storybook-with-react , run:
 ## Learned
 
 - https://github.com/storybookjs/storybook-deployer
-- GitHub Pages  allowes to pick **ONLY one branch** to be served.
+- GitHub Pages  allows to pick **ONLY one branch** to be served.
 
 ## Credits
 
