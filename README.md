@@ -33,3 +33,8 @@ Open the file `dist/index.html` in your browser
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/)
+
+## Learned
+
+- https://github.com/storybookjs/storybook-deployer
+- GitHub Pages  allowes to pick **ONLY one branch** to be served.
